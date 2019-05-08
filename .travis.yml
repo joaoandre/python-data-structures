@@ -18,6 +18,7 @@ matrix:
 
 # Package installation
 install:
+  - pip install -r requirements.txt
   - pip install manuel tox coveralls pytest pytest-cov
 
 # Run tests
